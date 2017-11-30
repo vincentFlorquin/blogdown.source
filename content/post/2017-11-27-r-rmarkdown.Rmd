@@ -38,3 +38,12 @@ pie(
 {{% alert note %}}
 You can use an `alert note` to stand out a section.
 {{% /alert %}}
+
+
+## Hugo shortcodes
+
+In R Markdown, you should not use the `{{< tweet 936232450006704128 >}}` syntax. Instead, you should use:
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '936232450006704128')
+```
