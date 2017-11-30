@@ -14,6 +14,25 @@ Here are the steps used to create it:
 
 - Open your terminal in the root directory of this local repository, and make sure the public directory is erased while hugo server is shut down (`rm -rf public`).
 
-- Create a submodule including `phgrosjean.github.io` as `/public` subdirectory within `phgrosjean.github.source` using g`it submodule add -b master git@github.com:phgrosjean/phgrosjean.github.io.git public`.
+- Make sure you have and SSH key and the public part is uploaded into your Github account:
 
-- Customize `config.toml` and add pages...
+```
+ssh-keygen -t rsa -b 4096 -C "phgrosjean@sciviews.org"
+# Accept default location and generate passphrase
+# Add your key into the SSH agent
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+# Copy the public part to the clipboard
+pbcopy < ~/.ssh/id_rsa.pub
+# In your Github account > settings > SSH and PGP keys > New SSH key -> add this key
+# Check that you can connect to github
+ssh -vT git@github.com # Should not return "Permission denied (publickey)"
+```
+
+- Create a submodule including `phgrosjean.github.io` as `/public` subdirectory within `phgrosjean.github.source` using `git submodule add -b master git@github.com:phgrosjean/phgrosjean.github.io.git public`.
+
+- Create `CNAME`, `LICENSE`, `README.md`, `.gitignore`, `.nojekyll` files in `phgrosjean.github.source/static` to be added automatically into `phgrosjean.github.io` when hugo builds the site.
+
+- Make sure that baseurl in `config.toml` is the same as the ur indicated in `CNAME`, ended with `/`.
+
+- Customize `config.toml`, add pages, build the site, push it to github and serve it!
