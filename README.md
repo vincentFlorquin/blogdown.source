@@ -1,8 +1,12 @@
 # Source for Philippe Grosjean's Web Site
 
-This is the source code created with [blogdown](https://bookdown.org/yihui/blogdown/) for building http://phgrosjean.sciviews.org with [hugo](https://gohugo.io) and hosted in the **phgrosjean.github.io** Github repository (as submodule in the `/public` folder, as explained [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/#host-github-user-or-organization-pages)).
+This is the source code created with [blogdown](https://bookdown.org/yihui/blogdown/) for building http://phgrosjean.sciviews.org with [hugo](https://gohugo.io) and hosted in the **phgrosjean.github.io** Github repository. _The rest of this REAMDE file is mostly a reminder to me about how to set up those sites._
 
-Here are the steps used to create it:
+Those two repositories are totally separated, because it is easier for me to commit and push to them separately, i.e., to focus on source, and push to `phgrosjean.github.io` *only* when I am happy with a totally finalized task. I thus followed instructions [here](https://bookdown.org/yihui/blogdown/github-pages.html) to set up those two repositories separately, using `publishDir = "../phgrosjean.github.io"` in `config.toml`.
+
+However, another possibility is to set `phgrosjean.github.io` as submodule in the `/public` folder of `phgrosjean.github.source`, as explained [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/#host-github-user-or-organization-pages)).
+
+Here are the steps used to create this submodule:
 
 - Install blogdown and hugo (version 0.31.1) in R using `install.packages("blogdown");blogdown::install_hugo()`.
 
@@ -14,7 +18,7 @@ Here are the steps used to create it:
 
 - Open your terminal in the root directory of this local repository, and make sure the public directory is erased while hugo server is shut down (`rm -rf public`).
 
-- Make sure you have and SSH key and the public part is uploaded into your Github account:
+- Make sure you have an SSH key and the public part is uploaded into your Github account:
 
 ```
 ssh-keygen -t rsa -b 4096 -C "phgrosjean@sciviews.org"
@@ -29,7 +33,11 @@ pbcopy < ~/.ssh/id_rsa.pub
 ssh -vT git@github.com # Should not return "Permission denied (publickey)"
 ```
 
-- Create a submodule including `phgrosjean.github.io` as `/public` subdirectory within `phgrosjean.github.source` using `git submodule add -b master git@github.com:phgrosjean/phgrosjean.github.io.git public`.
+- Create a submodule including `phgrosjean.github.io` as `/public` subdirectory within `phgrosjean.github.source` using:
+
+```
+git submodule add -b master git@github.com:phgrosjean/phgrosjean.github.io.git public
+```
 
 - Create `CNAME`, `LICENSE`, `README.md`, `.gitignore`, `.nojekyll` files in `phgrosjean.github.source/static` to be added automatically into `phgrosjean.github.io` when hugo builds the site.
 
