@@ -8,6 +8,31 @@ draft: false
 summary: "Exemple of using R chunks, R figures and reference to figures"
 ---
 
+Some Python code:
+
+```python
+import re
+for test_string in ['555-1212', 'ILL-EGAL']:
+  if re.match(r'^\d{3}-\d{4}$', test_string):
+    print test_string, 'is a valid US local phone number'
+  else:
+    print test_string, 'rejected'
+```
+
+... and R code:
+
+```r
+cube <- function(x) {
+  if (!is.numeric(x))
+    stop("'x' must be numeric")
+  return(x^3)
+}
+# Use this function
+cube(1:10)
+```
+
+R Chunks:
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
@@ -46,4 +71,51 @@ In R Markdown, you should not use the `{{< tweet 936232450006704128 >}}` syntax.
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '936232450006704128')
+```
+
+
+### Other examples
+
+Youtube
+
+```{r echo=FALSE}
+blogdown::shortcode('youtube', 'ZwYQPtU2Pa0') # or 'w7Ft2ymGmfc'
+```
+
+Vimeo
+
+```{r echo=FALSE}
+blogdown::shortcode('vimeo', '146022717')
+```
+
+Github Gist
+
+```{r echo=FALSE}
+blogdown::shortcode('gist', 'phgrosjean', 'f1d53c0dc1124522b2138033188497d0')
+```
+
+Speakerdeck
+
+```{r echo=FALSE}
+blogdown::shortcode('speakerdeck', '4e8126e72d853c0060001f97')
+```
+
+Figure
+
+```{r echo=FALSE}
+blogdown::shortcode('figure', src = '/img/coral.jpg', alt = "A nice fluorescent coral")
+```
+
+Code highlight (python)
+
+```{r echo=FALSE}
+blogdown::shortcode('highlight', 'python', .content = 'print("Hello world") # Comment')
+```
+
+Code highlight (R)
+
+```{r echo=FALSE}
+blogdown::shortcode('highlight', 'r', .content = '# An example R code
+x <- rnorm(100)
+hist(x, col = "cornsilk")')
 ```

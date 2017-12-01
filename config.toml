@@ -101,7 +101,7 @@ defaultContentLanguageInSubdir = false
   comment_count = true
 
   # Display section pager for posts?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -135,8 +135,9 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["r", "python"]
-  highlight_style = "github"
+  highlight_languages = ["python", "r"]
+  #highlight_style = "github"
+  highlight_style = "solarized-dark"
 
   # Enable native social sharing buttons?
   sharing = true
