@@ -10,7 +10,7 @@ paginate = 10
 publishDir = "../phgrosjean.github.io"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "phgrosjean"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
