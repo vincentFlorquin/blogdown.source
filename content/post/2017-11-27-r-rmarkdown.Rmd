@@ -106,16 +106,3 @@ Figure
 blogdown::shortcode('figure', src = '/img/coral.jpg', alt = "A nice fluorescent coral")
 ```
 
-Code highlight (python)
-
-```{r echo=FALSE}
-blogdown::shortcode('highlight', 'python', .content = 'print("Hello world") # Comment')
-```
-
-Code highlight (R)
-
-```{r echo=FALSE}
-blogdown::shortcode('highlight', 'r', .content = '# An example R code
-x <- rnorm(100)
-hist(x, col = "cornsilk")')
-```
