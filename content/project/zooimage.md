@@ -3,7 +3,7 @@
 date = "2015-01-01"
 
 # Project title.
-title = "ZooImage: (zoo)plankton image analysis"
+title = "ZooImage - (zoo)plankton image analysis"
 
 # Project summary to display on homepage.
 summary = "ZooImage allows to analyze plankton samples by means of image analysis and machine learning techniques to get abundances, biomasses, and size spectra per group."
