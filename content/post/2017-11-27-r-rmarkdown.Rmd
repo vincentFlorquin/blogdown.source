@@ -8,7 +8,7 @@ draft: false
 summary: "Exemple of using R chunks, R figures and reference to figures"
 ---
 
-Some Python code:
+Some example Python code:
 
 ```python
 import re

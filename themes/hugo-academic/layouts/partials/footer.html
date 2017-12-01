@@ -38,11 +38,13 @@
     <!-- Code highlighting -->
     {{ if $.Scratch.Get "highlight_enabled" }}
       {{ $v := $js.highlight.version }}
-      {{ if not .Site.Params.disable_sri }}
+  <!--    {{ if not .Site.Params.disable_sri }}
       {{ printf "<script src=\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/highlight.min.js\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" $v $js.highlight.sri | safeHTML }}
       {{ else }}
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/highlight.min.js"></script>
       {{ end }}
+      PhG: a hack to solve the bug that Safari cannot load highlight.min.js on the Mac -->
+      <script src="{{ "/js/highlight.min.js" | relURL }}"></script>
 
       {{ range .Site.Params.highlight_languages }}
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/languages/{{ . }}.min.js"></script>
