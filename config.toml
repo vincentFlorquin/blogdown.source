@@ -1,6 +1,6 @@
 baseurl = "http://phgrosjean.sciviews.org/"
 title = "Philippe Grosjean"
-copyright = "&copy; 2017 Philippe Grosjean (license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))"
+copyright = "&copy; 2017-2018 Philippe Grosjean (license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Philippe Grosjean"
-  role = "Professor of Marine Ecology and Biostatistics"
+  role = "Professor of Marine Ecology and Data Sciences"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
