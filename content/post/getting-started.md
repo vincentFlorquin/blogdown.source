@@ -1,6 +1,6 @@
 +++
 date = 2016-04-20
-lastmod = 2017-09-03
+lastmod = 2018-09-20
 draft = false
 tags = ["academic", "hugo"]
 title = "Mon premier blog"

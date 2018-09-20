@@ -10,7 +10,7 @@ summary: "Quelques exemples de formattages R Markdown"
 
 
 
-<p>Dans un document R Markdown on peut utiliser naturellement la syntaxe Markdown, mais aussi du code R dans des “chunks”, comme ci-dessous pour générer un graphique (Fig. <a href="#fig:pie">1</a>) :</p>
+<p>Dans un document R Markdown on peut utiliser naturellement la syntaxe <strong>Markdown</strong>, mais aussi du code R dans des “chunks”, comme ci-dessous pour générer un graphique (Fig. <a href="#fig:pie">1</a>) :</p>
 <pre class="r"><code>par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
@@ -23,20 +23,4 @@ pie(
 <p class="caption">
 Figure 1: Un superbe graphique en camembert.
 </p>
-</div>
-<p>{{% alert note %}} Une section <code>alert note</code> mets un paragraphe en évidence. {{% /alert %}}</p>
-<div id="hugo-shortcodes" class="section level2">
-<h2>Hugo shortcodes</h2>
-<p>Tweet</p>
-{{% tweet "936232450006704128" %}}
-<p>Youtube</p>
-{{% youtube "ZwYQPtU2Pa0" %}}
-<p>Vimeo</p>
-{{% vimeo "146022717" %}}
-<p>Github Gist</p>
-{{% gist "phgrosjean" "f1d53c0dc1124522b2138033188497d0" %}}
-<p>Speakerdeck</p>
-{{% speakerdeck "4e8126e72d853c0060001f97" %}}
-<p>Figure</p>
-{{% figure src="/img/project.jpg" alt="Une belle grenouille" %}}
 </div>
