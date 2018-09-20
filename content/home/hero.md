@@ -20,14 +20,14 @@ weight = 3
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "http://go.sciviews.org/cven_PhG"
+  url = "http://link.to.my.cv"
   label = '<i class="fa fa-download"></i> Curriculum Vitae (PDF)'
 
 +++
 
-Philippe Grosjean
+FIRST NAME FAMILY NAME
 <br>
-<small>Marine Ecologist, Biostatistician, Software Developer and Enthousiast UseR :octopus:</small>
+<small>A short description of myself here</small>
 <br><br>
 
 <script type="text/javascript">

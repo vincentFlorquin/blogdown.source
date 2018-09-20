@@ -1,6 +1,6 @@
 +++
 title = "Publications"
-date = "2017-11-29T13:47:00Z"
+date = "2018-09-24T13:47:00Z"
 math = true
 highlight = true
 

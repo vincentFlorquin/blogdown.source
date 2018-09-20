@@ -1,16 +1,16 @@
-baseurl = "http://phgrosjean.sciviews.org/"
-title = "Philippe Grosjean"
-copyright = "&copy; 2017-2018 Philippe Grosjean (license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))"
+baseurl = "https://USERNAME.github.io/"
+title = "FIRSTNAME FAMILYNAME"
+copyright = "&copy; 2018 FIRSTNAME FAMILYNAME (license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
-publishDir = "../phgrosjean.github.io"
+publishDir = "../USERNAME.github.io"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "phgrosjean"
+disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -33,27 +33,27 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, or `dark`.
-  color_theme = "coffee"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Philippe Grosjean"
-  role = "Professor of Marine Ecology and Data Sciences"
+  name = "FIRSTNAME FAMILYNAME"
+  role = "Student at UMONS (University of Mons, Belgium)"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Mons", url = "http://www.umons.ac.be" }, { name = "SciViews", url = "http://www.sciviews.org" } ]
+  organizations = [ { name = "University of Mons", url = "http://www.umons.ac.be" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "phg-portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "Philippe.Grosjean@umons.ac.be"
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "FIRSTNAME.FAMILYNAME@student.umons.ac.be"
   address = "Plaine de Nimy/Pentagone 3D, 8 avenue du champ de mars, 7000 Mons, Belgium"
-  office_hours = "Monday to Friday 08:00 to 16:00 or email for appointment"
-  phone = "+32/065.37.34.97"
-  skype = "phgrosjean"
+  office_hours = "Please, send me an email for appointment"
+  phone = "+32/0XX.XX.XX.XX"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -137,7 +137,6 @@ defaultContentLanguageInSubdir = false
   highlight = true
   highlight_languages = ["python", "r"]
   highlight_style = "github"
-  #highlight_style = "tomorrow"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -207,37 +206,37 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:Philippe.Grosjean@umons.ac.be"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/PhilGrosjean"
+    link = "mailto:FIRSTNAME.FAMILYNAME@student.umons.ac.be"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/phgrosjean"
+    link = "//github.com/USERNAME"
 
-  [[params.social]]
-    icon = "stack-overflow"
-    icon_pack = "fa"
-    link = "https://stackoverflow.com/users/1888386/philippe-grosjean"
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fa"
+#    link = "//twitter.com/USERNAME"
 
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fa"
-    link = "https://www.linkedin.com/in/philippe-grosjean-5b6b29a2"
+#  [[params.social]]
+#    icon = "stack-overflow"
+#    icon_pack = "fa"
+#    link = ""
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=BZxj1p4AAAAJ"
+#  [[params.social]]
+#    icon = "linkedin"
+#    icon_pack = "fa"
+#    link = ""
 
-  [[params.social]]
-    icon = "researchgate"
-    icon_pack = "ai"
-    link = "https://www.researchgate.net/profile/Philippe_Grosjean2"
+#  [[params.social]]
+#    icon = "google-scholar"
+#    icon_pack = "ai"
+#    link = ""
+
+#  [[params.social]]
+#    icon = "researchgate"
+#    icon_pack = "ai"
+#    link = ""
 
 
 # Navigation Links
@@ -253,10 +252,10 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 2
 
 [[menu.main]]
   name = "Posts"
@@ -268,10 +267,10 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 5
 
 [[menu.main]]
   name = "Tags"
@@ -288,6 +287,7 @@ defaultContentLanguageInSubdir = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
+
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.

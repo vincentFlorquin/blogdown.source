@@ -3,7 +3,7 @@
 # This widget displays all projects from `content/project/`.
 widget = "projects"
 active = true
-date = "2017-11-28T18:00:00"
+date = "2018-09-24T18:00:00"
 
 title = "Projects"
 subtitle = ""
@@ -33,8 +33,8 @@ filter_default = 0
   tag = ".ecology"
 
 [[filter]]
-  name = "Software"
-  tag = ".software"
+  name = "Biology"
+  tag = ".biology"
 
 [[filter]]
   name = "Other"
