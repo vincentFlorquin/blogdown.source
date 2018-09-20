@@ -1,4 +1,31 @@
-# Source for my own Web Site
+# Source pour mon site web professionnel
 
-This is the source code created with [blogdown](https://bookdown.org/yihui/blogdown/) for building https://USERNAME.github.io with [hugo](https://gohugo.io) and hosted in the `USERNAME.github.io` Github repository.
+Ceci est la source [blogdown](https://bookdown.org/yihui/blogdown/) pour construire https://USERNAME.github.io avec [hugo](https://gohugo.io) dans le dépôt Github `USERNAME.github.io`.
 
+
+## Procédure
+
+(remplacer `USERNAME` par votre propre login Github)
+
+- Clôner le dépôt `blogdown.source-USERNAME`dans le dossier **projects**
+
+- Créer sur Github (https://github.com) un nouveau dépôt qui **doit** s'appeler `USERNAME.github.io`
+
+- Le clôner également dans le dossier **projects**
+
+- Ouvrir le projet `blogdown.source` dans RStudio
+
+- Faire une recherche de toutes les occurences des trois mots suivants à remplacer dans tous les fichiers (`Edit -> Find in Files...`):
+    * USERNAME, à remplacer par votre login Github
+    * FIRSTNAME à remplacer par votre prénom
+    * FAMILYNAME à remplacer par votre nom de famille
+
+- Aller dans les **Addins** de RStudio et lancer celui qui s'intitule `Serve Site`dans la section `BLOGDOWN`... Votre site doit apparaitre.
+
+- Editez votre site
+
+- Commitez vos changements dans `blogdown.source`
+
+- Commitez votre site depuis `USERNAME.github.io` (vous pouvez le faire très facilement depuis Github Desktop)
+
+- Vérifiez que votre site est bien en ligne en allant voir à l'adresse `https://USERNAME.github.io` depuis votre navigateur web préféré... et contemplez le résultat!
