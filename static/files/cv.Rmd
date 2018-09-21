@@ -14,7 +14,7 @@ github: USERNAME
 jobtitle: Etudiant à l'Université de Mons
 keywords: Biologie, Science des données
 linkcolor: blue
-fontawesome: yes
+fontawesome: no
 address: 8 avenue du Champ de Mars, 7000 Mons, Belgique
 updated: yes
 urlcolor: blue
