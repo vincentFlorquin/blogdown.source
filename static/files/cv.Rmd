@@ -1,0 +1,57 @@
+---
+title: "CV"
+author: "FIRSTNAME FAMILYNAME"
+email: FIRSTNAME.FAMILYNAME@student.umons.ac.be
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: cv-latex.tex
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+geometry: margin=1in
+github: USERNAME
+jobtitle: Etudiant à l'Université de Mons
+keywords: Biologie, Science des données
+linkcolor: blue
+fontawesome: yes
+address: 8 avenue du Champ de Mars, 7000 Mons, Belgique
+updated: yes
+urlcolor: blue
+---
+
+# EDUCATION
+
+*Université de Mons*, Bachelier en Biologie \hfill 2020
+
+*Ecole secondaire*, orientation \hfill 2017
+
+
+# EMPLOIS
+
+*Job étudiant:*
+
+ > Activité réalisée \hfill 2017--2018
+
+*Autre emploi:*
+
+ > Rôle 2 \hfill 2016--2018
+ 
+ > Rôle 1 \hfill 2015
+
+
+# PUBLICATIONS
+
+## **Articles scientifiques**
+
+...
+
+
+## **Livres**
+
+...
+
+
+# RECOMPENSES
+
+**2017**  *Prix XXX*, détails concernant ce prix
