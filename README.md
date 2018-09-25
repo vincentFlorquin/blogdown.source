@@ -7,7 +7,9 @@ Ceci est la source [blogdown](https://bookdown.org/yihui/blogdown/) pour constru
 
 (remplacer `USERNAME` par votre propre login Github)
 
-- Clôner le dépôt `blogdown.source-USERNAME`dans le dossier **projects**
+- Faites un `Fork` du dépôt
+
+- Clôner le dépôt `blogdown.source`dans le dossier **projects**
 
 - Créer sur Github (https://github.com) un nouveau dépôt qui **doit** s'appeler `USERNAME.github.io`
 
@@ -22,10 +24,14 @@ Ceci est la source [blogdown](https://bookdown.org/yihui/blogdown/) pour constru
 
 - Aller dans les **Addins** de RStudio et lancer celui qui s'intitule `Serve Site`dans la section `BLOGDOWN`... Votre site doit apparaitre.
 
-- Editez votre site
+- Commitez vos changements dans `blogdown.source` dans l'onglet `Git` lorsque vous êtes satisfait de vos modifications.
 
-- Commitez vos changements dans `blogdown.source`
+- Commitez votre site depuis `USERNAME.github.io` (vous pouvez le faire très facilement depuis Github Desktop) 
 
-- Commitez votre site depuis `USERNAME.github.io` (vous pouvez le faire très facilement depuis Github Desktop)
+- Editez votre site en commençant par `content -> post -> getting-started.md` puis `content -> project -> getting-started.md`
+
+- Faites un `Commit` et `Push` de vos changements dans `blogdown.source` 
+
+- Faites un `Commit` et `Push`  de votre site depuis `USERNAME.github.io` (vous pouvez le faire très facilement depuis Github Desktop)
 
 - Vérifiez que votre site est bien en ligne en allant voir à l'adresse `https://USERNAME.github.io` depuis votre navigateur web préféré... et contemplez le résultat!
