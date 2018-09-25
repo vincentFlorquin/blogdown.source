@@ -25,7 +25,7 @@ weight = 3
 
 +++
 
-FIRST NAME FAMILY NAME
+FIRSTNAME FAMILYNAME
 <br>
 <small>A short description of myself here</small>
 <br><br>
