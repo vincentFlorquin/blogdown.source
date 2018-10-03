@@ -1,12 +1,12 @@
 +++
-date = 2016-04-20
-lastmod = 2018-09-20
+date = 2018-10-01
+lastmod = 2018-10-01
 draft = false
 tags = ["academic", "hugo"]
-title = "Mon premier blog"
+title = "Florquin Vincent"
 math = true
-summary = """
-Résumé en une ou deux phrases ici. 
+summary = """ 
+BAC 2 student in biology, 19 years old.
 """
 
 [header]
@@ -16,8 +16,8 @@ preview = false
 
 +++
 
-Le contenu ici
+'a venir'
 
-## Un titre
+## un titre
 
 Du texte **avec une partie en gras**...
