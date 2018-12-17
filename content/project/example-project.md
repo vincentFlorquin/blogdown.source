@@ -3,7 +3,7 @@
 date = "2018-09-24"
 
 # Project title.
-title = "My project"
+title = "Mon projet"
 
 # Project summary to display on homepage.
 summary = "A short summary of my project."
