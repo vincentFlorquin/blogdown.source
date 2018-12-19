@@ -16,8 +16,16 @@ preview = false
 
 +++
 
-'a venir'
 
-## un titre
+## Socials-Network-consequences-on-sleep-quality
+En groupe, nous avons receuillis des informations sur la qualité du sommeil et les effets des réseaux sociaux et des jeux vidéos sur le temps de sommeil
 
-Du texte **avec une partie en gras**...
+
+Le lien vers le projet
+https://vincentflorquin.github.io/project/example-project/
+
+le lien github pour le répertoire contenant le projet
+https://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality
+
+les différents contributeurs au projethttps://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality/graphs/contributors
+-> Vincent FLorquin, Clement Tourbez, Lucie Marin, Thomas Debont, Youri Nonclercq, Brieux Colette
