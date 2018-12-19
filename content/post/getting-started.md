@@ -27,6 +27,6 @@ https://vincentflorquin.github.io/project/example-project/
 le lien github pour le répertoire contenant le projet
 https://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality
 
-les différents contributeurs au projethttps://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality/graphs/contributors
+les différents contributeurs au projet https://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality/graphs/contributors
 -> Vincent FLorquin, Clement Tourbez, Lucie Marin, Thomas Debont, Youri Nonclercq, Brieux Colette
 Remerciement aux personnes anonymes pour les données 
