@@ -29,3 +29,4 @@ https://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-qualit
 
 les différents contributeurs au projethttps://github.com/clement-tourbez/Socials-networks-consequences-on-sleep-quality/graphs/contributors
 -> Vincent FLorquin, Clement Tourbez, Lucie Marin, Thomas Debont, Youri Nonclercq, Brieux Colette
+Remerciement aux personnes anonymes pour les données 
