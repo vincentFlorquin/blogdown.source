@@ -18,7 +18,7 @@ preview = false
 
 
 ## Socials-Network-consequences-on-sleep-quality
-En groupe, nous avons receuillis des informations sur la qualité du sommeil et les effets des réseaux sociaux et des jeux vidéos sur le temps de sommeil. Les personnes étudiées sont anonymes
+En groupe, nous avons receuillis des informations sur la qualité du sommeil et les effets des réseaux sociaux et des jeux vidéos sur le temps de sommeil.
 
 
 Le lien vers le projet
