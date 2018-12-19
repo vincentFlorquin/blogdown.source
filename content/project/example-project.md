@@ -74,7 +74,7 @@ This project and the analysis have been realised with Rstudio. The data has been
 ### Between sex
 
 
- ![](figure/IM1.png)
+ ![](figure/IM6.png)
 
 First we can see  a significant difference between girls and boys 's interrest about video game. Boys seem to be more attracted than girls .By contrast social networks like facebook or the others are as popular for girls than for boys and no difference are relevant.
 
@@ -118,7 +118,7 @@ Here we do not see any relation too. Despite that we can see that the hightest v
 
 ### video games
 
-![](figure/figure12.png)
+![](figure/IM5.png)
 
 
 #### Analyses
